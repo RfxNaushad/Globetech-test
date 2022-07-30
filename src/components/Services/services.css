@@ -1,0 +1,35 @@
+.nav_custom {
+    margin-right: 80px;
+}
+.tail-main_2 img {
+    margin-top: -43px;
+    margin-left: 46px;
+}
+
+.tail-main_2:hover {
+    transform: translateX(1035px);
+    transition: 1s;
+  }
+
+  .text-start_2 {
+    text-align: left!important;
+    margin-top: 100px;
+}
+
+.grid_box {
+    margin-top: 10px;
+}
+.card-img{
+    height: 261px;
+}
+
+.btn_custom {
+    border-radius: 25px;
+    width: 165px;
+}
+.hover-animation{
+    transition: transform 330ms ease-in-out;
+}
+.hover-animation:hover{
+    transform: translateX(-20px);
+}

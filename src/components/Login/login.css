@@ -1,0 +1,138 @@
+.sidebar_content {
+  height: 100%;
+  width: 28% !important;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.sidebar_content h2 {
+  font-family: 'Montserrat';
+  color: #0096C7;
+  margin-top: 80px;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.sidebar_content p {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  margin-top: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.sidebar_content img {
+  position: absolute;
+  top: 90%;
+}
+
+.log_fm {
+  width: 60% !important;
+  position: absolute;
+  top: 22%;
+  left: 35%;
+}
+
+.button_input {
+  background-color: #0096C7;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  font-family: Raleway, Montserrat;
+}
+
+.login {
+margin: 0px auto;
+padding: 60px 50px;
+max-width: 500px;
+border-radius: 5px;
+background: #fff;
+box-shadow: 1px 1px 1px #666;
+}
+
+.input_input {
+  position: relative;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #8C8383;
+  font-family: Raleway, Montserrat;
+}
+
+
+.login a {
+  font-family: 'Montserrat';
+  text-align: center;   
+  color: #212121; 
+}
+
+.login h2
+{
+  font-family: 'Montserrat';
+  text-align: center;   
+  color: #212121; 
+}
+.login p{
+  font-family: 'Montserrat';
+color: #928B8B;
+text-align: center;
+}
+
+.login a {
+text-decoration: none;  
+font-size: .8em;
+}
+
+.login a:visited {
+color: inherit;
+}
+
+.login a:hover {
+text-decoration: underline;
+}
+
+.eye_icon {
+  position: absolute;
+  top: 50%;
+  left: 68%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .log_fm {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+  .login {
+    max-width: 380px;
+    }
+}
+
+.sidebar_content h2 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 950px) {
+  .sidebar_content h2 {
+    font-size: 24px;
+  }
+  .sidebar_content p {
+    font-size: 11px;
+  }
+}
